@@ -6,7 +6,7 @@ describe 'static pages' do
 	describe 'Home page' do
 		it "Should have content 'Sample App'" do
 			visit "/static_pages/home"
-			page.should have_content("Sample app")
+			page.should have_content("Sample App")
 		end
 	end
 

@@ -3,9 +3,13 @@ SamleApp::Application.routes.draw do
 
   get "static_pages/help"
 
+<<<<<<< HEAD
   get "static_pages/Home"
 
   get "static_pages/Help"
+=======
+  get "static_pages/about"
+>>>>>>> static-pages
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
